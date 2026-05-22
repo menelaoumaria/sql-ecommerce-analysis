@@ -67,7 +67,7 @@ The business should explore strategies to convert high-spending non-loyalty cust
 The analysis highlights that revenue is influenced by seasonal trends, product performance, and a broad customer base. While certain categories and products drive strong performance, there are clear opportunities to improve underperforming areas and strengthen customer retention. Loyalty programmes and targeted campaigns represent key levers for driving future growth.
 
 
-## Approach
+**Approach**
 
 - Data was analysed using SQL (RunSQL)
 - Multiple tables (customers, orders, products) were joined to calculate revenue metrics
@@ -76,4 +76,7 @@ The analysis highlights that revenue is influenced by seasonal trends, product p
   - Aggregations (SUM, COUNT)
   - Joins across relational tables
   - Window functions for percentage calculations
+  - Subqueries for calculating customer-level metrics
 
+**Files**
+- queries.sql: SQL queries used for analysis
